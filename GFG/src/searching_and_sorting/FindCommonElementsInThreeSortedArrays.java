@@ -2,7 +2,7 @@ package searching_and_sorting;
 
 import java.util.*;
 
-public class Find_common_elements_in_three_sorted_arrays {
+public class FindCommonElementsInThreeSortedArrays {
 	public List<Integer> findThreeCommonEle(int[] arr1, int[] arr2, int[] arr3) {
 
 		List<Integer> res = new ArrayList<Integer>();
@@ -56,7 +56,7 @@ public class Find_common_elements_in_three_sorted_arrays {
 		int[] arr2 = { 1, 2,5,5,9,19 };
 		int[] arr3 = { 5,5,13,155 };
 
-		List<Integer> res = new Find_common_elements_in_three_sorted_arrays()
+		List<Integer> res = new FindCommonElementsInThreeSortedArrays()
 				.findThreeCommonEle(arr1, arr2, arr3);
 
 		System.out.println(res);
